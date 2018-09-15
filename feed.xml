@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-09-15T17:16:23+02:00</updated><id>/</id><title type="html">FROMJASP // The Craft Behind Music Production</title><entry><title type="html">The history of live looping and how it can be used today!</title><link href="/new-ideas-for-looping" rel="alternate" type="text/html" title="The history of live looping and how it can be used today!" /><published>2018-08-30T21:47:00+02:00</published><updated>2018-08-30T21:47:00+02:00</updated><id>/new-ideas-for-looping</id><content type="html" xml:base="/new-ideas-for-looping">&lt;p&gt;In this article we take a look at the history of Live Looping and talk about the techniques they used back in the days.
+I also demonstrate newly created techniques and explain how and why I use them.&lt;/p&gt;</content><author><name>Jasper Hartsuijker</name></author><category term="live looping" /><summary type="html">In this article we take a look at the history of Live Looping and talk about the techniques they used back in the days. I also demonstrate newly created techniques and explain how and why I use them.</summary></entry><entry><title type="html">Do I really need an external preamp?</title><link href="/do-i-really-need-an-external-preamp" rel="alternate" type="text/html" title="Do I really need an external preamp?" /><published>2018-08-28T00:00:00+02:00</published><updated>2018-08-28T00:00:00+02:00</updated><id>/do-i-really-need-an-external-preamp</id><content type="html" xml:base="/do-i-really-need-an-external-preamp">&lt;p&gt;Is there any reason to buy different sorts of external preamps? Can’t we just use the build-in preamps that come with our audio interface? Well, yes and no! Let’s find out!&lt;/p&gt;
+
+&lt;p&gt;Before we start talking about why we would need an external preamp, let’s first talk about what a pre-amp actually does, why would we need one in the first place?&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-a-preamp&quot;&gt;What is a preamp?&lt;/h3&gt;
+&lt;p&gt;A preamp is an &lt;em&gt;electronic amplifier that converts low level signals to line level.&lt;/em&gt; One of the reasons we often need a preamp is because our microphone signals are lower than +4dBu. This means that the signal needs some gain in order for us to hear it properly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How much gain is needed:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Microphones (condenser, ribbon) need around 30-60 dB of gain.&lt;/li&gt;
+  &lt;li&gt;Guitars and Basses usually a little less, around 20-30 dB.&lt;/li&gt;
+  &lt;li&gt;Synthesizers, depends because of various standards. (read below)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post1_picture1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The old standard for home audio and semiprofessional gear used to be -10 dBV while professional devices operate at +4 dBu (which is 14 dB difference). Nowadays almost all gear is designed for a nominal level of +4 dBu. This means that you do need a preamp to give old home/semipro gear a bit of gain.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-would-i-use-an-external-preamp-instead-of-the-ones-build-in-my-interface&quot;&gt;Why would I use an external preamp instead of the ones build in my interface?&lt;/h3&gt;
+&lt;p&gt;So there are a few reasons why an external preamp could be more useful
+than the ones build in your interface. You’ll find them below these 500series preamps!
+&lt;img src=&quot;/assets/images/posts/externalpreamps.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. More gain&lt;/strong&gt; &lt;br /&gt;
+As we’ve talked about before the lower the signal the more gain we need. Old ribbon microphones often have such a weak signal that they require up to 70 dB of gain and sometimes even more. Most preamps in an interface do not offer that much gain, and so
+an external preamp would be better.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Better sound quality at higher gain settings&lt;/strong&gt;&lt;br /&gt;
+ When you use an old ribbon mic for example, the low level needs a lot of gain. The preamps that come with most interfaces are not so transparent any more when you use a lot of gain. External preamps usually remain transparent even at their highest gain settings.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. A different colour/sound&lt;/strong&gt;&lt;br /&gt;
+Most people buy one or more external preamps because it gives a special ‘character’ to the sound. Most preamps in an interface are fairly transparent and clean. External preamps often add some sort of flavour. Each preamp has it’s own flavour. With flavour I mean, one preamp may boost other frequencies than the other. Distortion also influences ‘the flavour’. One preamp may add a different sort of distortion than the other.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Lower noise&lt;/strong&gt;&lt;br /&gt;
+Most interfaces come with preamps that already have quite a low noise ratio.
+However, if you record a very quiet source with old ribbons, you need so much gain that you’ll often hear a bit of noise when using your regular build-in preamps. Out of all the reasons why you would need an external preamp is this the least important one. Around the -130 dBm is the technical limit. Keep in mind that the Equivalent Input Noise (EIN) with a large negative value is better. So -124 dBm is better than -120 dBm. According to the Neumann website anything above -127 dBu isn’t really an improvement to the preamps you’ve got in your interface.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Extra features&lt;/strong&gt;&lt;br /&gt;
+External preamps often come with extra features such as a phase-reverse, high-pass filters, a pad switch, etc. The Neve 517 model which is the 2nd module in the picture below even has a compressor build-in.
+&lt;img src=&quot;/assets/images/posts/post1_picture3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I don’t think there’s such a thing as a bad preamp, they just sound ‘different’.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;so-what-preamp-should-i-buy-&quot;&gt;So what preamp should I buy? &lt;br /&gt;&lt;/h3&gt;
+&lt;p&gt;Now that you know what a preamp does and how one may sound different than the other you must be thinking: what preamp should I buy? If you’re just starting out the preamps on your audio interface will do fine. The build-in preamps from an Apollo 8 by UAD for example do sound really good, but other ‘more affordable’ companies such as Focusrite make great preamps as well. I don’t think there’s such a thing as a bad preamp, they just sound ‘different’.&lt;/p&gt;
+
+&lt;p&gt;For example: a lot of great mixing engineers use cheap Behringer preamps for guitars.  If you’re looking for different colours there are so many choices. One engineer may like to use a particular preamp on vocals while another engineer uses that same preamp only on guitar.
+&lt;img src=&quot;/assets/images/posts/post1_picture4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to do a fair comparison between two build-in preamps, then make sure that the converter you’re using is the same. This might be difficult to do, because some interfaces do not have the option to route an input directly to an output. One build-in preamp may sound better than the other, but has been build into an interface which has very poor audio conversion.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Sources&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.neumann.com/&quot;&gt;Neumann Official Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Mikrofone-Theorie-Praxis-Thomas-G%C3%B6rne/dp/3895761893/ref=la_B004596HVI_1_2/258-8753668-4503457?s=books&amp;amp;ie=UTF8&amp;amp;qid=1515193722&amp;amp;sr=1-2&quot;&gt;Microphones in theory and Practice by: Thomas Görne.&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Jasper Hartsuijker</name></author><category term="recording" /><category term="mixing" /><summary type="html">Is there any reason to buy different sorts of external preamps? Can’t we just use the build-in preamps that come with our audio interface? Well, yes and no! Let’s find out!</summary></entry><entry><title type="html">What are the differences between the different types of compressors? OPTO, FET, VCA, VARI-MU?</title><link href="/different-types-of-compression-explained" rel="alternate" type="text/html" title="What are the differences between the different types of compressors? OPTO, FET, VCA, VARI-MU?" /><published>2018-08-27T00:00:00+02:00</published><updated>2018-08-27T00:00:00+02:00</updated><id>/different-types-of-compression-explained</id><content type="html" xml:base="/different-types-of-compression-explained">&lt;p&gt;Compression can be accomplished in different ways, hence the different type of compressors. Every different type of compressor sounds different, e.g. one may sound better on certain things than the other. Let’s find out how these different types of compressors work, and in which situation we can best use a particular type of compression!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Tip: To follow along with this article it is convenient that you understand how compression works in general. If you’re not sure what terms like; ratio, attack, release, or threshold mean, or just want a quick read up. Then &lt;a href=&quot;/how-compression-works&quot;&gt;this&lt;/a&gt; article I wrote about compression in general might be helpful! While you’re at it, &lt;a href=&quot;/different-types-of-compression-explained&quot;&gt;this&lt;/a&gt; post could also be interesting where I explain the different types of compression&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;The following table is basically a summary of this whole article. If this doesn’t make sense to you right now, it will once you’re done reading this article. The table can be used as reference whenever you quickly need to access all the information described in this article. While I would suggest you to experiment with different compressors on different sources, this table can be used to help you figure out what type of compressor would work best. Remember that this is all relative, and therefore should always &lt;strong&gt;trust your ears&lt;/strong&gt;. When you’re deciding what type of compressor or what combination of compressors you will use, you could ask yourself one of the following questions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;(1.) How dynamic is the source I want to compress?&lt;/li&gt;
+  &lt;li&gt;(2.) Do I want the compressor to only reduce the gain, or do I also want it to colour the source?&lt;/li&gt;
+  &lt;li&gt;(3.) How much control do I want?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/compressortable.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt; &lt;b&gt; This is a list of different types of compressors that are covered in this article: &lt;/b&gt; &lt;br /&gt;
+VCA &lt;br /&gt;
+OPTO &lt;br /&gt;
+VARI-MU (TUBE) &lt;br /&gt;
+FET &lt;br /&gt;
+PWM &lt;br /&gt;
+Diode Bridge Compressor&lt;/p&gt;
+
+&lt;h3 id=&quot;vca-voltage-controlled-amplifier&quot;&gt;VCA (Voltage Controlled Amplifier)&lt;/h3&gt;
+&lt;p&gt;While the A in VCA stands for Amplifier it’s actually more often an attenuator, meaning that it turns the signal down when it’s fed a certain control voltage. In simple terms that’s how the gain reduction takes place in a VCA compressor;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You dial in a control signal using the different front panel controls:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;With the &lt;strong&gt;treshold&lt;/strong&gt; knob you tell the compressor when to start turning the signal down.&lt;/li&gt;
+  &lt;li&gt;With the &lt;strong&gt;attack&lt;/strong&gt; knob you tell it how fast to do it&lt;/li&gt;
+  &lt;li&gt;With the &lt;strong&gt;ratio&lt;/strong&gt; knob you decide how much to do it&lt;/li&gt;
+  &lt;li&gt;And with the &lt;strong&gt;release&lt;/strong&gt; knob you decide how long it should take for the signal volume to return to normal.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post2_picture2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What VCA compressors are known for&lt;/strong&gt; &lt;br /&gt;
+VCA compressors are sensitive to micro-dynamics and transients. Most of them have a hard knee, but some compressors allow you to adjust the knee to a more soft-knee (just like the api 2500 in the picture above for example). A VCA compressor is known for it’s transparency and offers the highest possible amounts of gain reduction compared to the other types of compressors. Also the design of a VCA compressor allows for a lot of control.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What are they used on?&lt;/strong&gt; &lt;br /&gt;
+Because VCA compressors are extremely fast they work really well on instruments that have big differences in transients such as &lt;strong&gt;percussion&lt;/strong&gt;. In other words, it can be good on things with drastic chances. However, VCA compressors are also widely used by both mixing and mastering engineers as &lt;strong&gt;mixbus&lt;/strong&gt; compressor. This is because the design allows for &lt;strong&gt;a lot of control&lt;/strong&gt;, a wide range of response times, and can be made to react very quickly if desired. This gives you all the power you need to create cohesion and punch in your mixes, regardless of the type of song, the tempo, or how loud specific instruments may be. Besides that, let’s not forget that the VCA compressor is quite a &lt;strong&gt;transparent&lt;/strong&gt; compressor. If you’re thinking of investing your money into 1 compressor for your mix bus, then a stereo VCA compressor is a smart choice since it covers a lot of different ground.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt; &lt;b&gt; COMPRESSORS THAT USE A VCA FOR GR:  &lt;/b&gt; &lt;br /&gt;
+SSL G-series Stereo Compressor &lt;br /&gt;
+API 2500 &lt;br /&gt;
+Neve 30609 &lt;br /&gt;
+Focusrite RED 3 &lt;br /&gt;
+Vertigo VSC-2 &lt;br /&gt;
+Shadow Hills Dual Vandergraph &lt;br /&gt;
+Shadow Hills Mastering Compressor (Opto Stereo + VCA Stereo) &lt;br /&gt;
+Dramastic Obsidian Stereo Compressor &lt;br /&gt;
+DBX 160  &lt;br /&gt;
+Alan Smart C1 &lt;br /&gt;
+Kush Audio Tweaker &lt;br /&gt;
+Foote P3EX &lt;br /&gt;
+P3 &lt;br /&gt;
+Smart Research C2 &lt;br /&gt;
+Smart Research C1LA &lt;br /&gt;
+Serpent Audio SB4001 &lt;br /&gt;
+Dangerous Compressor
+Overstayer Stereo Voltage Control &lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;opto&quot;&gt;OPTO&lt;/h3&gt;
+&lt;p&gt;An OPTO compressor uses the incoming audio signal to feed a lighting element (such as LED (new design), lightbulb (older design)) and the LED shines upon a light-sensitive resistor. The resistance of this light-sensitive element informs the compression circuit how much and how quickly the audio signal should be attenuated. In other words; the gain reduction is controlled by a photo or light cell, and that’s exactly what makes this design so unique. The way the photocell reacts to the light source ensures that there is some inherent delay in the response time to trigger the attack and the release of the compressor. Many people describe this response time as smooth and musical; the attack is rather fast and the initial release as well, but then it tapers off in its release rate as it decays.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post2_picture3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why every OPTO compressor can sound different&lt;/strong&gt; &lt;br /&gt;
+The sound of an OPTO compressor depends on what types of materials were used in its construction. For example: different type of light sources will illuminate at different speeds. But not only changing the type of light will affect the sound, also a resistor can react differently depending on the material from which it was made. One of the most famous OPTO compressors is the &lt;strong&gt;LA-2A&lt;/strong&gt;, which is is tube-based design that uses the military designed &lt;strong&gt;T4 photoresistor&lt;/strong&gt;. The T4 is a cell that has nearly infinite resistance as long as it is dark. But when light hits the surface of the T4 it causes a drop resistance. Therefore they could use the cell to control the gain reduction. The T4 cell in a LA-2a has (according to the original specs) an attack of 10ms and a gradually sloping release that can last up to five seconds depending on the program material.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What OPTO compressors are known for&lt;/strong&gt; &lt;br /&gt;
+One thing all OPTO compressors have in common (no matter the materials that were used) is that they are the slowest type of compression. At least that goes for OPTO compressors that use older designs. Nowadays with new modern designs, it is actually possible to create an OPTO compressor that reacts as fast as a VCA compressor. However, an OPTO compressor is known for being very slow. Besides being slow, the older ‘classic’ designs have an attack and release that are almost always &lt;strong&gt;not linear&lt;/strong&gt;. The harder your hit an OPTO compressor the quicker its initial release time can be. However, the slope from compressed signal to uncompressed signal will not fall in linear fashion. This means that if you set the gain-reduction to 10 dB, the first 5 decibels might release much more quickly than the following 5.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: Some inexpensive compressors on the market claim to have an optical emulation mode available. In many instances this is just a slower attack and/or release time and really doesn’t properly emulate the behaviour of a real OPTO compressor. There are some digital emulations that come pretty close though.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What are they used on?&lt;/strong&gt; &lt;br /&gt;
+An OPTO compressor is good at taking care of macro-dynamics. If you have a song that starts quiet and ends loud a VCA compressor will do nothing at the beginning and will smash the signal at the end (depending on your settings of course). An OPTO compressor will smooth things out and will have a more consistent level throughout the song. When you want to tighten up your mix a little bit without losing transients, use an OPTO compressor on your &lt;strong&gt;mixbus&lt;/strong&gt;, but be careful of pumping which will boost the low end content. To prevent this from happening you can use a high-pass filter in side-chain mode. It also works really well on &lt;strong&gt;bass&lt;/strong&gt;, &lt;strong&gt;guitars&lt;/strong&gt;, and &lt;strong&gt;vocals&lt;/strong&gt;. But then again it depends on the performance, if the performance has lots of transients you might be better of using a different type of compression or perhaps a combination of two.&lt;/p&gt;
+
+&lt;p&gt;Here are some audio examples that were compressed using the CL2A by TUBE-TECH (see image above). If you’d like to listen to more examples then click &lt;a href=&quot;http://www.tube-tech.com/cl-2a-dual-opto-compressor/&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Bass Guitar - &lt;strong&gt;BYPASS&lt;/strong&gt;&lt;/p&gt;
+&lt;audio preload=&quot;none&quot; style=&quot;width: 100%;&quot; controls=&quot;controls&quot;&gt;&lt;source type=&quot;audio/mpeg&quot; src=&quot;assets/images/audio/bass-bypass-cl2a.mp3&quot; /&gt;&lt;/audio&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bass Guitar - &lt;strong&gt;CL2A ON&lt;/strong&gt;&lt;/p&gt;
+&lt;audio preload=&quot;none&quot; style=&quot;width: 100%;&quot; controls=&quot;controls&quot;&gt;&lt;source type=&quot;audio/mpeg&quot; src=&quot;assets/images/audio/bass-cl2a.mp3&quot; /&gt;&lt;/audio&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Guitar - &lt;strong&gt;BYPASS&lt;/strong&gt;&lt;/p&gt;
+&lt;audio preload=&quot;none&quot; style=&quot;width: 100%;&quot; controls=&quot;controls&quot;&gt;&lt;source type=&quot;audio/mpeg&quot; src=&quot;assets/images/audio/gtr-bypass-cl2a.mp3&quot; /&gt;&lt;/audio&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Guitar - &lt;strong&gt;CL2A ON&lt;/strong&gt;&lt;/p&gt;
+&lt;audio preload=&quot;none&quot; style=&quot;width: 100%;&quot; controls=&quot;controls&quot;&gt;&lt;source type=&quot;audio/mpeg&quot; src=&quot;assets/images/audio/gtr-cl2a.mp3&quot; /&gt;&lt;/audio&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How to use an OPTO compressor?&lt;/strong&gt; &lt;br /&gt;
+Unlike a FET compressor the input-level of an OPTO compressor usually cannot be changed inside of the device. So if you’re driving the compressor without any compression happening, you’ll have to bring down the output level of the preamp, unless that’s the sound you’re going for. Most OPTO compressors have two knobs. One for the &lt;strong&gt;gain&lt;/strong&gt; and for &lt;strong&gt;threshold&lt;/strong&gt;. The threshold a.k.a. the peak reduction knob determines at what level the compressor will begin to engage. So if you want lots of compression you’ll set a lower threshold (which is a higher peak reduction), and if you want less compression you set a higher threshold (which is a lower peak reduction). The &lt;strong&gt;&lt;em&gt;input-gain knob&lt;/em&gt;&lt;/strong&gt; is placed after the compression and &lt;strong&gt;IS NOT&lt;/strong&gt; the input gain to the compressor. It actually is the output gain to your DAW or tape machine. It is called the ‘input-gain’ because it determines how loud the signal will be send into your DAW or tape machine.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/la2a.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Tip: You can use an OPTO compressor as a signal booster. If the source was tracked at a low level, you can run it through an optical compressor and keep the threshold all the way up so that there won’t be any compression at all. Now use the gain knob to add more level to signal. Despite not using any compression the OPTO compressor may add a little colour to your source as well.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt; &lt;b&gt; COMPRESSORS THAT USE PHOTO/LIGHT CELL FOR GR:  &lt;/b&gt; &lt;br /&gt;
+LA-2A &lt;br /&gt;
+LA-3A  &lt;br /&gt;
+LA-4A  &lt;br /&gt;
+TubeTech CL1B &lt;br /&gt;
+Manley ELOP &lt;br /&gt;
+SHMC &lt;br /&gt;
+Aurora Audio GTC2 &lt;br /&gt;
+Acme Audio Opticom XLA-3  MKII &lt;br /&gt;
+Retro Instruments Sta-Level &lt;br /&gt;
+Buzz Audio SOC 1.1 / 2.0 &lt;br /&gt;
+Inward Connections VAC RAC &lt;br /&gt;
+The Brute 2 &lt;br /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;variable-mu-tube-compressor&quot;&gt;VARIABLE MU (TUBE COMPRESSOR)&lt;/h3&gt;
+&lt;p&gt;It’s the earliest compressor design you can find. The amount of compression it uses is far from linear. The actual ratio increases with gain reduction which means the louder a transient is the more it’s going to compress. It’s much slower than a VCA or FET and is therefore often used to glue a mix together. Because it grabs transients so slow people tend to describe a VARI-MU compressor as one that handles transients ‘musically’. Where an OPTO compressor such as the LA-2A uses it build-in tubes to colour the sound, a VAR-MU compressor completely relies on it’s tubes to control the gain reduction. This is of course a bit simplified, but it’s the main reason why a VAR-MU sounds different than a VCA or FET compressor for example. Because it relies so heavily on it’s tubes and because it often uses warmer transformers than a OPTO compressor for example, a VARI-MU compressor adds the most “colour” to a source.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post2_picture4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What are they used on?&lt;/strong&gt; &lt;br /&gt;
+It’s amazing on a mix bus, but also on thin and aggressive sources such as an electric-guitar. This is because of the tubes handling the gain reduction which results in adding warmth and smoothing things out. The extra warmth you get from the compressor works also great on overheads or room microphones and can help to really open up the drum sound. You should &lt;strong&gt;NOT&lt;/strong&gt; use a VARI-MU compressor when you want punch, or solve dramatic dynamic issues.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How to use a VARI-MU compressor?&lt;/strong&gt;&lt;br /&gt;
+Where the OPTO compressor did not have an &lt;strong&gt;input knob&lt;/strong&gt; to control the incoming gain, a VARI-MU (just like a FET) does have one! This knob allows you to either &lt;strong&gt;boost&lt;/strong&gt; or &lt;strong&gt;attenuate&lt;/strong&gt; the signal so that you can just hit that sweet spot. Driving the input can result in some very pleasant tube overdrive which can be great to add some attitude to drums, vocals, electric guitars, or electric bass. It also has a &lt;strong&gt;threshold&lt;/strong&gt; knob, which works similar to how the threshold/peak-reduction knob on an OPTO compressor works. After you’ve dialled in the input signal, you can adjust the threshold which determines how much gain reduction will be applied. This gives a little more flexibility than the FET compressor (see below), which has a fixed threshold. The adjustable threshold on a VARI-MU compressor allows you more possibilities to drive the compressor really hard, and then choose the desired amount of compression based on the input gain.&lt;/p&gt;
+
+&lt;p&gt;On older models such as the Fairchild 670 (see picture of a clone above), the attack and release times are bundled together through a parameter called “Time Constants”. On a Fairchild for example, the set time constant will have have an attack and release that cannot be adjusted, but are set to &lt;strong&gt;complement&lt;/strong&gt; each other. If you’re on a lower setting, you will have a quicker attack and release time, and a higher setting will give you a slow attack/release time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post2_picture5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;New models like the Manley Variable MU (see picture above) feature not only an attack knob but also a release knob. The attack knob works similar to the attack knob on a 1176 which ranges from slow to fast. The release knob has a different name and is called: ‘&lt;strong&gt;recovery&lt;/strong&gt;’. The recovery knob can be set to different modes going from slow to fast.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt; &lt;b&gt; COMPRESSORS THAT USE TUBES FOR GR:  &lt;/b&gt; &lt;br /&gt;
+Fairchild 670 &lt;br /&gt;
+Altec 436C&lt;br /&gt;
+Manley Variable MU&lt;br /&gt;
+SLATE VBC-FG-MU &lt;/p&gt;
+
+&lt;h3 id=&quot;fet-field-effect-transistor&quot;&gt;FET (Field Effect Transistor)&lt;/h3&gt;
+&lt;p&gt;In comparison with an OPTO or VARI-MU, a FET compressor offers (just like a VCA) a very quick transient response, and are solid state by design. The name FET suggests that these compressors use some sort of transistor. A transistor is a semiconductor that can both amplify and attenuate signal based on the settings you dial in. The big difference in the way it’s build between a VCA compressor and FET compressor sits in the transistors. A VCA compressor has a transistor that is housed with an integrated circuit (an IC) which responds to the voltage of your incoming signal. The FET, however, &lt;a href=&quot;https://www.electronics-notes.com/articles/electronic_components/fet-field-effect-transistor/what-is-a-fet-types-overview.php&quot;&gt;works with the electrical field as a whole&lt;/a&gt;, and gain changes are the result of electrical charges in addition to voltage. In other words; the voltage is applied to the gate. The more voltage you give the lower the resistance in the drain circuit will be. This means that when there’s more voltage –&amp;gt; there’s less resistance –&amp;gt; reduction in gain.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post2_picture6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The way this design reduces gain gives it a unique sound. One the most-famous FET compressors is  the &lt;strong&gt;1176&lt;/strong&gt; (see picture of a clone above). The 1176 is capable of exceedingly fast attack items, but do colour the sound quite a bit. So if you want a fast attack and transparency you’re better off using using a VCA compressor.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What are they used on?&lt;/strong&gt; &lt;br /&gt;
+If you want punch, use a FET compressor. It’s a type of compression that has a super fast attack, and therefore works really well on aggressive performances. The slowest attack time on a FET compressor is still faster than a tube compressor. A FET compressor adds a lot of colour to the sound, which can be quite pleasant on drums, vocals, bass, and anything else basically. However, I do tend to not use it on my mixbus because of its colouring. Many engineers use the 1176 for parallel processing because of the aggression and vibe they add.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tip 1:&lt;/strong&gt;  &lt;em&gt;You can use both the hardware or software version of the 1176 on a source, but with the compression turned off. The output transformers sound really warm, and will add a bit of a flavour to your sound.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tip 2:&lt;/strong&gt; &lt;em&gt;When working with heavier vocal parts such as screams I love to really drive the input level of the FET compressor so that it starts to saturate the vocal in a pleasing way. You can back down the level with output knob so you won’t start clipping&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How to use a FET compressor?&lt;/strong&gt; &lt;br /&gt;
+The 1176 FET compressor differs from other compressors because it has a fixed-threshold design. This means that if you want more compression you’ll have to dial in the input level. After you’ve dialled in the input level you can use the output knob to determine how much level you’re sending to your tape machine or DAW, this can be used to prevent the source from clipping your DAW converters or the input of your tape machine. The attack and release on a 1176 are marked from 1 - 7. Where on most compressors 1 would be the fastest setting, the 1176 is quite the opposite. On a 1176 compressor is 7 the fastest setting possible and 1 the slowest, this goes for both the attack and release (check the GIF below).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/1176.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tip 3:&lt;/strong&gt; &lt;em&gt;The ‘bread and butter’ setting on a 1176 is setting the attack to be slowest possible and the release the fastest possible. This will ensure that the dynamics are preserved in the recording, tame the loudest transients that come through and quickly go back to zero before you notice compression ever happened.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt; &lt;b&gt;COMPRESSOR THAT USE FET FOR GR: &lt;/b&gt; &lt;br /&gt;
+1176 &lt;br /&gt;
+1178 &lt;br /&gt;
+mc77 &lt;br /&gt;
+Faking FET 2 &lt;br /&gt;
+Overstayer FET  &lt;br /&gt;
+Aurora Audio GTC2 &lt;br /&gt;
+Pete's place BAC500 &lt;br /&gt;
+Purple Action  &lt;br /&gt;
+Dreamer 1973 / 1978
+&lt;/p&gt;
+
+&lt;h3 id=&quot;pwm-pulse-width-modulator&quot;&gt;PWM (Pulse width Modulator)&lt;/h3&gt;
+&lt;p&gt;PWM is an old technology that has been used in vintage compressors but also in modern devices. Using pulse width modulation you’re able to cleanly control the gain-reduction without VCA artifacts. The basic idea is that audio is energy, and in electrical form when you are inside a piece of gear. So if you’re using the compressor to reduce the gain, you’re basically reducing the energy. A VCA compressor lets a percentage of that energy through, determined by a control voltage (it is a variable gain amplifier, or voltage controlled amplifier).&lt;/p&gt;
+
+&lt;p&gt;The problem with a VCA compressor is the following: when you change the settings on the compressor, you’re actually changing the control voltage. While doing so it is possible that the control voltage leaks into the audio path which means you’ll hear your compressed signal + dynamically changing distortion. The faster the VCA needs to work, the worse this distortion can become.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post2_picture7.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;So what exactly is PWM? (I’m not sure if I understand this correctly so please correct me if I’m wrong)&lt;/strong&gt; &lt;br /&gt;
+Every time we’re changing one of the parameters on our compressor; let’s say the threshold, the control voltage changes. Now if we had a switch that would turn off whenever the signal overloads we would get rid of the artifacts. This switch we’re talking about must be able to switch on/off extremely fast. Luckily, the modern PWM gain control circuit design is able to use current technology, and very high speed parts such as that extremely fast switch (we’re talking on/off in less than 1nS). Now in order for the switch to know when it should be turned on and off, a circuit needs to be built that will turn the control voltage into a variable width on-off switching command. This circuit is known as &lt;strong&gt;a pulse width modulator&lt;/strong&gt;. The width of the pulse changes based on the applied control voltage, which basically means whenever you adjust one of the knobs on your compressor, the width of the pulse will change. With a very careful circuit design and a printed circuit layout it is possible to build an accurate system with extremely low artifacts.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What are they used on?&lt;/strong&gt; &lt;br /&gt;
+I would personally use a PWM compressor if I don’t want to colour the sound at all. We’ve talked about VCA compressors and we now know that those are pretty clean compressors especially compared to VARI-MU compressors, but a PWM compressor is even cleaner. If you’re into HIFI you’ll love these compressors, but of course just like the other type of compressors they work on many things.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt; &lt;b&gt;COMPRESSOR THAT USE PWM FOR GR: &lt;/b&gt; &lt;br /&gt;
+Great River PWM-501&lt;br /&gt;
+Pye Compressor &lt;br /&gt;
+AC Sound PI-3141 &lt;br /&gt;
+Crane Song STC-8 &lt;br /&gt;
+EMT 156 PDM  &lt;br /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;diode-bridge&quot;&gt;Diode Bridge&lt;/h3&gt;
+&lt;p&gt;What Diode Bridge Compressors separate from other compressors is the distortion that it generates which creates harmonics. Where OPTO and VCA compressors generally do not produce a lot of distortion,  diode compressors tend to colour the sound quite a bit.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post2_picture8.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A diode bridge compressor uses a diode to control the gain reduction. A diode is a &lt;strong&gt;non-linear&lt;/strong&gt; electronic component that conducts the electrical current very well in one direction, but it has a huge amount of distortion. To combat this problem, they dropped the level in front of the diode bridge with 40dB. Doing this brought not only the audio down but also the distortion. After that that diode bridge controlled the gain reduction and this signal was sent to a second transformer which passed the signal to an amplifier chain.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/post2_picture9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Because this design has quite a high noise floor, people started to use other design more and more. The diode bridge design still has it’s place though. It adds a certain kind of colour / thickness to a sound like no other design does. Over the years this design has been improved and now has a much lower noise floor. A new design like this can be found in compressors such as the DBC 20 from Buzz Audio.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt; &lt;b&gt;COMPRESSOR THAT USE DIODE BRIDGE FOR GR: &lt;/b&gt; &lt;br /&gt;
+Neve 2254&lt;br /&gt;
+Neve 33609 (basically the big brother of the 2254) &lt;br /&gt;
+The Neve 535 (500 series from Neve) &lt;br /&gt;
+DB54 &lt;br /&gt;
+AMS neve 226 &lt;br /&gt;
+AML 54f50 &lt;br /&gt;
+Buzz Audio DBC 20 &lt;br /&gt;
+Chandler Zener Limiter
+&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;It’s hard to fully understand the inner workings off all the different sort of compressors. But unless you’re planning on building your own compressors it’s okay if you don’t exactly know how each compressor was made. I think as engineer/producer it is important to understand what specific designs do to our sound. One compressor may be very slow, but what does this mean for our sound? Or one compressor uses tubes to control the gain reduction and another one uses a controlled voltage, what kind of options do those different compressors give us and once again, what does that mean for our sound?&lt;/p&gt;
+
+&lt;p&gt;If we simplify things we could say that there are two different worlds with compressors. In world 1 you want to control the dynamics without changing the sound (e.g. hi-res audio). And in world 2 you want to colour the sound but not use an EQ. The ultimate compressor could do both, but making a hardware unit that is capable of doing so is very hard and expensive. In an ideal world one can put circuits in a box that can do both kinds of sounds, transparent and coloured, but then again we all like different sorts of colours so it rapidly becomes quite complex. In this article we’ve talked about the many different technologies that compressors have been built with over the years. The gain control elements have been; tubes, diodes, optical, PWM, voltage controlled amplifiers, and we discovered that there are several different approaches to them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A compressor basically consists of 3 parts:&lt;/strong&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;(1.) The gain control part&lt;/li&gt;
+  &lt;li&gt;(2.) The control path (sidechain)&lt;/li&gt;
+  &lt;li&gt;(3.) The audio path&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Designing a compressor is a difficult task. Once the gain control part has been sorted out, one needs to deal with the control path. We saw that there are many different compressors with different control paths. An OPTO compressor for example only had one threshold/peak-reduction knob that controlled the gain reduction while a VCA compressor had many different knobs such as the attack, release, ratio, etc. All these different control paths add different sorts of non-dynamic distortion to the signal. The 3rd path (the audio path) even adds more distortion but this time the distortion is dynamic. So when you set the attack time to slow (so that most of the peaks come through) what happens to the peaks? Will they pass through undistorted, or are they going to clip? When they clip, will they hardclip or softclip?&lt;/p&gt;
+
+&lt;p&gt;In short: building a compressor is hard but understanding what a specific design does to your sound not so much. By understanding how one design may affect your source we can quickly get the sound we or our client wants 😁. If you scroll back to the top of this post you will find a table that I have made which is basically a quick summary of this entire article.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;ps; if I have made any mistakes, or I’m missing something important don’t hesitate to contact me!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Other interesting articles (I will keep updating this list!):&lt;/strong&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.cranesong.com/analog%20compressor%20tech.pdf&quot;&gt;Analog compressors and some of the bits that make them what they are. –&amp;gt; By: Dave Hill&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.cranesong.com/pwm_comp.pdf&quot;&gt;Why a PMW Compressor –&amp;gt; By: Dave Hill&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://vintageking.com/blog/2016/06/neve-33609-compressor/&quot;&gt;The History of the Neve33609 –&amp;gt; by vintageking&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=yV6OW0fKIcE&amp;amp;t=184s&quot;&gt;Rupert Neve talking about the development of the Diode Bridge Compressor&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Jasper Hartsuijker</name></author><category term="recording" /><category term="mixing" /><summary type="html">Compression can be accomplished in different ways, hence the different type of compressors. Every different type of compressor sounds different, e.g. one may sound better on certain things than the other. Let’s find out how these different types of compressors work, and in which situation we can best use a particular type of compression!</summary></entry></feed>

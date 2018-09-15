@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description></description>
+    <link>
+    </link>
+    
+      
+      <item>
+        <title>The history of live looping and how it can be used today!</title>
+        
+          <description>&lt;p&gt;In this article we take a look at the history of Live Looping and talk about the techniques they used back in the days.
+I also demonstrate newly created techniques and explain how and why I use them.&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 30 Aug 2018 19:47:00 +0000</pubDate>
+        <link>
+        /new-ideas-for-looping</link>
+        <guid isPermaLink="true">/new-ideas-for-looping</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Do I really need an external preamp?</title>
+        
+          <description>&lt;p&gt;Is there any reason to buy different sorts of external preamps? Can’t we just use the build-in preamps that come with our audio interface? Well, yes and no! Let’s find out!&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 28 Aug 2018 00:00:00 +0200</pubDate>
+        <link>
+        /do-i-really-need-an-external-preamp</link>
+        <guid isPermaLink="true">/do-i-really-need-an-external-preamp</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>What are the differences between the different types of compressors? OPTO, FET, VCA, VARI-MU?</title>
+        
+          <description>&lt;p&gt;Compression can be accomplished in different ways, hence the different type of compressors. Every different type of compressor sounds different, e.g. one may sound better on certain things than the other. Let’s find out how these different types of compressors work, and in which situation we can best use a particular type of compression!&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 27 Aug 2018 00:00:00 +0200</pubDate>
+        <link>
+        /different-types-of-compression-explained</link>
+        <guid isPermaLink="true">/different-types-of-compression-explained</guid>
+      </item>
+      
+    
+  </channel>
+</rss>
