@@ -19,10 +19,13 @@
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.css">
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css">
     <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css">
+
     <!-- highlight.js -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <style>.hljs { background: none; }</style>
 
+    <!-- Instafeed -->
+    <script type="text/javascript" src="/assets/js/instafeed.js"></script>
 
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="We focus on delivering crystal clear educational content without wasting your time on side issues. Together we will truly discover the craft behind music production!">
@@ -232,12 +235,12 @@ I also demonstrate newly created techniques and explain how and why I use them.<
                     <div id="disqus_thread"></div>
                     <script type="text/javascript">
                         var disqus_config = function () {
-                            this.page.url = "/";
+                            this.page.url = "www.fromjasp.com//";
                             this.page.identifier = "FROMJASP // The Craft Behind Music Production";
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
-                            s.src = 'https://FROMJASP.disqus.com/embed.js';
+                            s.src = "https://FROMJASP.disqus.com/embed.js";
                             s.setAttribute('data-timestamp', +new Date());
                             (d.head || d.body).appendChild(s);
                         })();
@@ -421,6 +424,16 @@ I also demonstrate newly created techniques and explain how and why I use them.<
     <!-- /endif -->
 
     
+
+    <script type="text/javascript">
+        var userFeed = new Instafeed({
+            get: 'user',
+            userId: '320043554',
+            accessToken: '320043554.1677ed0.65ee0410328448b68904e22b50ac8d6b'
+        });
+        userFeed.run();
+    </script>
+
 
 
     <!-- Add Google Analytics  -->
