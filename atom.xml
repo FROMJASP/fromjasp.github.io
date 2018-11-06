@@ -4,7 +4,7 @@
     <title> - Articles</title>
     <description>the craft behind music production.</description>
     <link>
-    </link>
+    http://localhost:4000</link>
     
       
       <item>
@@ -16,8 +16,8 @@ I also demonstrate newly created techniques and explain how and why I use them.&
         
         <pubDate>Thu, 30 Aug 2018 19:47:00 +0000</pubDate>
         <link>
-        /new-ideas-for-looping</link>
-        <guid isPermaLink="true">/new-ideas-for-looping</guid>
+        http://localhost:4000/new-ideas-for-looping</link>
+        <guid isPermaLink="true">http://localhost:4000/new-ideas-for-looping</guid>
       </item>
       
     
@@ -31,8 +31,8 @@ I also demonstrate newly created techniques and explain how and why I use them.&
         
         <pubDate>Tue, 28 Aug 2018 00:00:00 +0200</pubDate>
         <link>
-        /do-i-really-need-an-external-preamp</link>
-        <guid isPermaLink="true">/do-i-really-need-an-external-preamp</guid>
+        http://localhost:4000/do-i-really-need-an-external-preamp</link>
+        <guid isPermaLink="true">http://localhost:4000/do-i-really-need-an-external-preamp</guid>
       </item>
       
     
@@ -46,8 +46,8 @@ I also demonstrate newly created techniques and explain how and why I use them.&
         
         <pubDate>Mon, 27 Aug 2018 00:00:00 +0200</pubDate>
         <link>
-        /different-types-of-compression-explained</link>
-        <guid isPermaLink="true">/different-types-of-compression-explained</guid>
+        http://localhost:4000/different-types-of-compression-explained</link>
+        <guid isPermaLink="true">http://localhost:4000/different-types-of-compression-explained</guid>
       </item>
       
     
