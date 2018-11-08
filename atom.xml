@@ -4,20 +4,36 @@
     <title> - Articles</title>
     <description>the craft behind music production.</description>
     <link>
-    http://localhost:4000</link>
+    </link>
     
       
       <item>
-        <title>The history of live looping and how it can be used today!</title>
+        <title>YASPR; A new mid-dark theme for Ableton Live 10</title>
         
-          <description>&lt;p&gt;In this article we take a look at the history of Live Looping and talk about the techniques they used back in the days.
-I also demonstrate newly created techniques and explain how and why I use them.&lt;/p&gt;
+          <description>&lt;p&gt;By changing a little bit of XML code we can change a lot of the colours that Ableton uses by default. I have always felt that the default themes were a tiny
+bit too light or dark. Therefore I decided to create my own theme which is based on Ableton’s Dark theme, except I tried to make it a little easier on the eyes.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 07 Nov 2018 00:00:00 +0100</pubDate>
+        <link>
+        /yaspr-ableton-live10-template</link>
+        <guid isPermaLink="true">/yaspr-ableton-live10-template</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>:[VIDEO] The history of live looping and how it can be used today!</title>
+        
+          <description>&lt;p&gt;In this article we take a dive in the past and look at how masters such as Terry Riley, Robert Fripp, Brian Eno, etc made use of ‘live loops’ in their performances. What techniques did they use? And are those techniques still relevant today? We’ll also take a look at all the possibilities we have nowadays using modern technology such as Ableton Live 10 and Max 4 Life.&lt;/p&gt;
+
 </description>
         
         <pubDate>Thu, 30 Aug 2018 19:47:00 +0000</pubDate>
         <link>
-        http://localhost:4000/new-ideas-for-looping</link>
-        <guid isPermaLink="true">http://localhost:4000/new-ideas-for-looping</guid>
+        /new-ideas-for-looping</link>
+        <guid isPermaLink="true">/new-ideas-for-looping</guid>
       </item>
       
     
@@ -31,8 +47,8 @@ I also demonstrate newly created techniques and explain how and why I use them.&
         
         <pubDate>Tue, 28 Aug 2018 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/do-i-really-need-an-external-preamp</link>
-        <guid isPermaLink="true">http://localhost:4000/do-i-really-need-an-external-preamp</guid>
+        /do-i-really-need-an-external-preamp</link>
+        <guid isPermaLink="true">/do-i-really-need-an-external-preamp</guid>
       </item>
       
     
@@ -46,8 +62,8 @@ I also demonstrate newly created techniques and explain how and why I use them.&
         
         <pubDate>Mon, 27 Aug 2018 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/different-types-of-compression-explained</link>
-        <guid isPermaLink="true">http://localhost:4000/different-types-of-compression-explained</guid>
+        /different-types-of-compression-explained</link>
+        <guid isPermaLink="true">/different-types-of-compression-explained</guid>
       </item>
       
     
