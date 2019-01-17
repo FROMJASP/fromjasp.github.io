@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+    <!-- THIS IS ONLY USED ON THE PORTFOLIO.HTML -->
     <!-- Document Settings -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,9 +12,15 @@
 
 
 
-    <title>Live Looping - FROMJASP // The Craft Behind Music Production</title>
+    <title>Portfolio | Jasper Hartsuijker</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- INCLUDES FOR JQUERY PORTFOLIO -->
+    <link rel="stylesheet" href="/assets/built/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="/assets/built/style.css"> <!-- Resource style -->
+    <script src="/assets/js/modernizr.js"></script> <!-- Modernizr -->
+
     <!-- Styles'n'Scripts -->
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.css">
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css">
@@ -24,22 +30,28 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <style>.hljs { background: none; }</style>
 
+    <!-- Particles -->
+    <script type="text/javascript">
+    particlesJS("particles-js",particles.json);
+    </script>
+
+
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="the craft behind music production.">
     <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png">
-    <link rel="canonical" href="/tag/live-looping/">
+    <link rel="canonical" href="/portfolio/">
     <meta name="referrer" content="no-referrer-when-downgrade">
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="FROMJASP // The Craft Behind Music Production">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Live Looping - FROMJASP // The Craft Behind Music Production">
+    <meta property="og:title" content="Portfolio | Jasper Hartsuijker">
     <meta property="og:description" content="the craft behind music production.">
-    <meta property="og:url" content="/tag/live-looping/">
+    <meta property="og:url" content="/portfolio/">
     <meta property="og:image" content="/assets/images/blog-cover.png">
     <meta property="article:publisher" content="https://www.facebook.com/fromjasp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Live Looping - FROMJASP // The Craft Behind Music Production">
+    <meta name="twitter:title" content="Portfolio | Jasper Hartsuijker">
     <meta name="twitter:description" content="the craft behind music production.">
     <meta name="twitter:url" content="/">
     <meta name="twitter:image" content="/assets/images/blog-cover.png">
@@ -59,7 +71,7 @@
         "name": "FROMJASP // The Craft Behind Music Production",
         "logo": "/assets/images/logo.png"
     },
-    "url": "/tag/live-looping/",
+    "url": "/portfolio/",
     "image": {
         "@type": "ImageObject",
         "url": "/assets/images/blog-cover.png",
@@ -68,7 +80,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/tag/live-looping/"
+        "@id": "/portfolio/"
     },
     "description": "the craft behind music production."
 }
@@ -83,24 +95,17 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2">
-    <link rel="alternate" type="application/rss+xml" title="Tag Page" href="/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="Portfolio | Jasper Hartsuijker" href="/feed.xml">
 
 
 </head>
-<body class="tag-template">
+<body class="page-template">
 
 
     <div class="site-wrapper">
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
-        <!-- default -->
-<!-- The tag above means - insert everything in this file into the {body} of the default.hbs template -->
-
-<!-- The big featured header, it uses blog cover image as a BG if available -->
-<!-- #tag -->
-<!-- dynamically loading backgrounds for tags,  descriptions and page titles -->
-
-
-<header class="site-header outer no-cover">
+        <!-- Navigation Bar -->
+<header class="site-header outer">
     <div class="inner">
         <nav class="site-nav">
     <div class="site-nav-left">
@@ -143,70 +148,171 @@
     </div>
 </nav>
 
-        <div class="site-header-content">
-            <h1 class="site-title">Live Looping</h1>
-            <h2 class="site-description">
-                
-    			    A collection of 1 posts
-                
-            </h2>
-        </div>
     </div>
 </header>
-<!-- tag -->
 
-<!-- The main content area -->
-<main id="site-main" class="site-main outer" role="main">
-    <div class="inner">
-        <div class="post-feed">
-            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-            
-    <article class="post-card tag-template">
-        
-            <a class="post-card-image-link" href="/the-history-of-live-looping">
-                <div class="post-card-image" style="background-image: url(/assets/images/historyloop.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/the-history-of-live-looping">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Live looping</span>
-                            
-                        
-                    
 
-                    <h2 class="post-card-title">:[VIDEO] The history of live looping and how it can be used today!</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>In this article we take a dive in the past and look at how masters such as Terry Riley, Robert Fripp, Brian Eno, etc made use of ‘live loops’ in their performances. What techniques did they use? And are those techniques still relevant today? We’ll also take a look at all the</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/images/jasper.png" alt="Jasper Hartsuijker">
-                        
-                        <span class="post-card-author">
-                            <a href="/author/jasper/">Jasper Hartsuijker</a>
-                        </span>
-                    
-                
-            </footer>
+      <!-- JQUERY PORTFOLIO TEMPLATE -->
+      <div class="cd-intro-block">
+        <div class="content-wrapper">
+          <h1>Jasper Hartsuijker | Portfolio</h1>
+          <a href="jasperhartsuijker" class="cd-btn" data-action="show-projects">Show Jasper's projects</a>
         </div>
-    </article>
+      </div> <!-- .cd-intro-block -->
+
+      <div class="cd-projects-wrapper">
+        <ul class="cd-slider">
+          <li class="current">
+
+            <a href="#bokeh">
+              <img src="/assets/images/portfolio/bokeh.png" alt="bokeh">
+              <div class="project-info">
+                <h2>B O K E H - Don't leave the Fire [EP]</h2>
+                <p>Mixing Assistant</p>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#cusack">
+              <img src="/assets/images/portfolio/cusack.jpg" alt="cusack">
+              <div class="project-info">
+                <h2>Cusack - Oysters [Single]</h2>
+                <p>Production, Recording, Mixing</p>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="pauper">
+              <img src="/assets/images/portfolio/pauper.jpeg" alt="pauper">
+              <div class="project-info">
+                <h2>Het Pauper Paradijs [ALBUM]</h2>
+                <p>Assistant Engineer.</p>
+              </div>
+            </a>
+          </li>
 
 
-        </div>
-    </div>
-</main>
+          <li>
+            <a href="suethenight">
+              <img src="/assets/images/portfolio/suethenight.jpg" alt="suethenight">
+              <div class="project-info">
+                <h2>Sue the Night - Wanderland [ALBUM]</h2>
+                <p>Assisant Engineer</p>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="avionfire">
+              <img src="/assets/images/portfolio/avi.jpg" alt="avionfire">
+              <div class="project-info">
+                <h2>Avi on Fire - [EP]</h2>
+                <p>Assistant Engineer.</p>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="jacob">
+              <img src="/assets/images/portfolio/jacob3.png" alt="jacob">
+              <div class="project-info">
+                <h2>Jacob 3.0 [CONCERT]</h2>
+                <p>Live Recording.</p>
+              </div>
+            </a>
+          </li>
 
 
-        <!-- Previous/next page links - displayed on every page -->
-        
+
+
+        <ul class="cd-slider-navigation cd-img-replace">
+          <li><a href="#0" class="prev inactive">Prev</a></li>
+          <li><a href="#0" class="next">Next</a></li>
+        </ul> <!-- .cd-slider-navigation -->
+      </ul>
+</div> <!-- .cd-projects-wrapper -->
+
+      <div class="cd-project-content">
+        <div>
+          <center>
+
+            <a href="#bokeh">BOKEH - </a>
+            <a href="#cusack">CUSACK - </a>
+            <a href="#pauper">HET PAUPER PARADIJS - </a>
+            <a href="#suethenight">SUE THE NIGHT - </a>
+            <a href="#avi">AVI ON FIRE - </a>
+            <a href="#jacob">JACOB 3.0 </a>
+
+            <a id="bokeh"></a>
+            <h2>B O K E H - Don't leave the Fire [EP]</h2>
+            <em>Mixing Assistant</em>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ay0E_Fv5zCg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <br> <br>
+
+            <p>Listen to the full EP <a href="https://open.spotify.com/album/7yWbC6Iquntp4XcfA9Hf08?si=I5uMqE4YRcWn-1CTRf1TnQ">here </a>on spotify!</p>
+
+              <!----->
+
+              <a id="cusack"></a>
+              <h2>Cusack - Oysters [SINGLE]</h2>
+              <em>Production, Recording, Mixing</em>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/6BB1b3DTgAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <br> <br>
+              <p>Listen to their EP <a href="https://open.spotify.com/album/7b1ZSKbV8RpTia8PrIZmDJ?si=RllqtoBTRtWKQDQOGWigmQ">here </a>on spotify!</p>
+
+
+              <a id="pauper"></a>
+              <h2>Het Pauper Paradijs</h2>
+              <em>Assistant Engineer</em>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/aIhBz7-_0Ug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <br> <br>
+              <p>Listen to the full album <a href="https://open.spotify.com/album/5B7Wpn4FtTfSxSSKvKSWcL?si=fxEe7p9ESMKfv54hiDU5ig">here </a>on spotify!</p>
+
+
+              <a id="suethenight"></a>
+              <h2>Sue The Night - Wanderland [ALBUM]</h2>
+              <em>Assistant Engineer</em>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/DMoqkDCdCsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <br> <br>
+              <p>Listen to the full album <a href="https://open.spotify.com/album/2QOoGDo0HBNsJ7UNYp6PXM?si=I3h8eTU1SO-6A6P-A0COBA">here </a>on spotify!</p>
+
+
+              <a id="avi"></a>
+              <h2>Avi on Fire - Debut EP</h2>
+              <em>Assistant Engineer</em>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/OZ2pxhkN7I8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <br> <br>
+              <p>Listen to Avi on Fire <a href="https://open.spotify.com/artist/6GDLgiLnjy6X5B6FKO5EBg?si=eIWXPEhoSpKYa_SdkvcI2g">here </a>on spotify!</p>
+
+
+              <a id="jacob"></a>
+              <h2>Jacob 3.0 - Concert</h2>
+              <em>Live Recording</em>
+              <iframe width="560" height="315" src="https://embed.vpro.nl/player/?id=WO_VPRO_5945289&amp;profile=vpro&amp;sharing=1" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen></iframe>
+              <br> <br>
+              <p>For more videos click <a href="https://www.vpro.nl/vrije-geluiden/lees/festivals/jacob-3-punt-0.html">here </a>!</p>
+
+
+        </center>
+</div>
+        <a href="" class="close cd-img-replace">Close</a>
+      </div> <!-- .cd-project-content -->
+
+
+
+    <script src="/assets/js/jquery-2.1.4.js"></script>
+    <script src="/assets/js/jquery.mobile.custom.min.js"></script>
+    <script src="/assets/js/main.js"></script> <!-- Resource jQuery -->
+
+
+
+
+
 
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
@@ -226,64 +332,6 @@
 
     </div>
 
-    <!-- The big email subscribe modal content -->
-    
-        <div id="subscribe" class="subscribe-overlay">
-            <a class="subscribe-overlay-close" href="#"></a>
-            <div class="subscribe-overlay-content">
-                
-                    <img class="subscribe-overlay-logo" src="/assets/images/favicon.png" alt="FROMJASP // The Craft Behind Music Production">
-                
-                <h1 class="subscribe-overlay-title">Subscribe to FROMJASP </h1>
-                <p class="subscribe-overlay-description">And get a fresh mail in your inbox whenever I have written a new article!</p>
-                
-
-            </div>
-        </div>
-    
-
-
-
-    <!-- highlight.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
-    <script>$(document).ready(function() {
-      $('pre code').each(function(i, block) {
-        hljs.highlightBlock(block);
-      });
-    });</script>
-
-    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
-    </script>
-    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
-
-
-    <!-- Paginator increased to "infinit" in _config.yml -->
-    <!-- if paginator.posts  -->
-    <!-- <script>
-        var maxPages = parseInt('1');
-    </script>
-    <script src="/assets/js/infinitescroll.js"></script> -->
-    <!-- /endif -->
-
-    
-
-    <script type="text/javascript">
-        var userFeed = new Instafeed({
-            get: 'user',
-            userId: '320043554',
-            accessToken: '320043554.1677ed0.65ee0410328448b68904e22b50ac8d6b'
-        });
-        userFeed.run();
-    </script>
-
-
-    <!-- Particles -->
-    <script type="text/javascript">
-    particlesJS("particles-js",particles.json);
-    </script>
-
 
     <!-- Add Google Analytics  -->
     <!-- Google Analytics Tracking code -->
@@ -301,12 +349,18 @@
 
     <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
     
+        <script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
+    
 
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
     <!-- ghost_foot -->
 
-    <!-- Instafeed -->
-    <script type="text/javascript" src="/assets/js/instafeed.js"></script>
 
 </body>
 </html>
