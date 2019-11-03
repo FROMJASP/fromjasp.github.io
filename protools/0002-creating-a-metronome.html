@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- Document Settings -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>2. Metronome, BPM, and Tempo Changes</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css">
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css">
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css">
+
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="the craft behind music production.">
+    <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.png" type="image/png">
+    <link rel="canonical" href="http://localhost:4000/protools/0002-creating-a-metronome">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="FROMJASP // The Craft Behind Music Production">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="2. Metronome, BPM, and Tempo Changes">
+    <meta property="og:description" content="##### hotkeys used in this post | Metronome | |-------|--------|---------| | **7** numpad | | mute/unmute metronome (only works if you have a click trick) | | **8** numpad | | pre count on/off | | **ALT** + **2** | | change BPM | | **T** | | change bpm">
+    <meta property="og:url" content="http://localhost:4000/protools/0002-creating-a-metronome">
+    <meta property="og:image" content="http://localhost:4000/assets/images/blog-cover.png">
+    <meta property="article:publisher" content="https://www.facebook.com/fromjasp">
+    <meta property="article:author" content="https://www.facebook.com/fromjasp">
+    <meta property="article:published_time" content="2019-01-31T23:30:00+01:00">
+    <meta property="article:modified_time" content="2019-01-31T23:30:00+01:00">
+    <meta property="article:tag" content="Road To Protools">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="2. Metronome, BPM, and Tempo Changes">
+    <meta name="twitter:description" content="##### hotkeys used in this post | Metronome | |-------|--------|---------| | **7** numpad | | mute/unmute metronome (only works if you have a click trick) | | **8** numpad | | pre count on/off | | **ALT** + **2** | | change BPM | | **T** | | change bpm">
+    <meta name="twitter:url" content="http://localhost:4000/">
+    <meta name="twitter:image" content="http://localhost:4000/assets/images/blog-cover.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="FROMJASP // The Craft Behind Music Production">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Road To Protools">
+    <meta name="twitter:site" content="@fromjasp">
+    <meta name="twitter:creator" content="@fromjasp">
+    <meta property="og:image:width" content="1400">
+    <meta property="og:image:height" content="933">
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "FROMJASP // The Craft Behind Music Production",
+        "logo": "http://localhost:4000/assets/images/logo.png"
+    },
+    "url": "http://localhost:4000/protools/0002-creating-a-metronome",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:4000/assets/images/blog-cover.png",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:4000/protools/0002-creating-a-metronome"
+    },
+    "description": "##### hotkeys used in this post | Metronome | |-------|--------|---------| | **7** numpad | | mute/unmute metronome (only works if you have a click trick) | | **8** numpad | | pre count on/off | | **ALT** + **2** | | change BPM | | **T** | | change bpm"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2">
+    <link rel="alternate" type="application/rss+xml" title="2. Metronome, BPM, and Tempo Changes" href="/feed.xml">
+
+
+</head>
+<body class="post-template">
+
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="https://www.fromjasp.com"><img src="/assets/images/blog-icon.png" alt="FROMJASP // The Craft Behind Music Production"></a>
+            
+        
+        
+              <ul class="nav" role="menu">
+      <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+      <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
+      <li class="nav-about" role="menuitem"><a href="/tutorials/">Tutorials</a></li>
+      <li class="nav-try-ghost" role="menuitem"><a href="/contact/">Contact</a></li>
+      <li class="nav-media" role="menuitem"><a href="/media/">Media</a></li>
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+                <a class="social-link social-link-fb" href="https://facebook.com/fromjasp" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"></path></svg>
+</a>
+            
+
+            
+                <a class="social-link social-link-tw" href="https://twitter.com/fromjasp" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"></path></svg>
+</a>
+            
+
+            
+                <a class="social-link social-link-yt" href="https://youtube.com/fromjasp" target="_blank" rel="noopener"><svg viewbox="0 0 512 512"><path d="M422.6 193.6c-5.3-45.3-23.3-51.6-59-54 -50.8-3.5-164.3-3.5-215.1 0 -35.7 2.4-53.7 8.7-59 54 -4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54C426.6 284.8 426.6 227.3 422.6 193.6zM222.2 303.4v-94.6l90.7 47.3L222.2 303.4z"></path></svg>
+</a>
+            
+        </div>
+        
+            <a class="subscribe-button" href="http://eepurl.com/dGOiar" target="_blank" rel="noopener">Subscribe</a>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full post tag-road-to-protools no-image">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="31 January 2019">31 January 2019</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href="/tag/road-to-protools/">ROAD TO PROTOOLS</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">2. Metronome, BPM, and Tempo Changes</h1>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <h5 id="hotkeys-used-in-this-post">hotkeys used in this post</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metronome</th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+<strong>7</strong> numpad</td>
+      <td> </td>
+      <td>mute/unmute metronome (only works if you have a click trick)</td>
+    </tr>
+    <tr>
+      <td>
+<strong>8</strong> numpad</td>
+      <td> </td>
+      <td>pre count on/off</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+<strong>ALT</strong> + <strong>2</strong>
+</td>
+      <td> </td>
+      <td>change BPM</td>
+    </tr>
+    <tr>
+      <td><strong>T</strong></td>
+      <td> </td>
+      <td>change bpm by tapping the tempo <br> <em>(bpm must be selected in midi controls)</em>
+</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Recording</th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+<strong>ALT</strong> + <strong>L</strong>
+</td>
+      <td> </td>
+      <td>loop recording (also enables loop play)</td>
+    </tr>
+    <tr>
+      <td>
+<strong>5</strong> numpad</td>
+      <td> </td>
+      <td>punch recording</td>
+    </tr>
+    <tr>
+      <td>
+<strong>shift</strong> + <strong>f12</strong>
+</td>
+      <td> </td>
+      <td>half-speed recording</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+<strong>ALT + 1</strong> = change the meter. <em>(handy when you want your clicktrack to be double tempo)</em>
+</li>
+  <li>
+<strong>CMD + 6</strong> = pen tool</li>
+</ul>
+
+<h2 id="creating-a-metronome">Creating a metronome</h2>
+<p>In order to have a clicktrack in PT you’ll need to create one. Unfortunately there is no hotkey to do this, so we’ll have to do it manually.</p>
+
+<p><img src="/assets/images/protools/metronometrack.png" alt=""></p>
+
+<center>
+Track --&gt; Create Click Track </center>
+<p><br></p>
+
+<p>It will automatically create a new track for you with an instance of <strong>CLICK 2</strong>. You can alter the sound of the metronome via this plugin.</p>
+
+<p><img src="/assets/images/protools/click2.png" alt=""></p>
+
+<h5 id="hotkeys">Hotkeys:</h5>
+<ul>
+  <li>Use <strong>7</strong> on your numpad to mute and unmute the metronome.</li>
+  <li>Use <strong>ALT + 1</strong> to change the meter. (handy when you want your clicktrack to be double tempo)</li>
+</ul>
+
+<h2 id="changing-the-bpm">Changing the BPM</h2>
+<p>Changing the BPM in your session can be done by clicking on the <strong>+</strong> icon or <strong>ALT + 2</strong></p>
+
+<p><img src="/assets/images/protools/changebpm.png" alt=""></p>
+
+<h3 id="changing-the-bpm-overtime">Changing the BPM overtime</h3>
+
+<p><img src="/assets/images/protools/drawtool.png" alt=""></p>
+
+<h5 id="hotkeys-1">Hotkeys:</h5>
+<ul>
+  <li>Use <strong>CMD + 6</strong> to select the draw tool. You can draw straight lines like this:</li>
+</ul>
+
+<p><img src="/assets/images/protools/tempochange.png" alt=""></p>
+
+<ul>
+  <li>
+<strong>Tip 1:</strong> By either left clicking or tapping the <strong>CMD + 6</strong> hotkey you can select different types of drawing such as curves.</li>
+  <li>
+<strong>Tip 2:</strong> The resolution determines how fast your click will play. I usually leave this at 1/4</li>
+</ul>
+
+<h2 id="metronome-behaviour">Metronome Behaviour</h2>
+<p>By default Pro Tools hides the midi controls. If you right click on the transport bar you can enable midi controls:</p>
+
+<p><img src="/assets/images/protools/midicontrols.png" alt=""></p>
+
+<p>If you then double click on the metronome icon this window will appear:</p>
+
+<p><img src="/assets/images/protools/metronomebehaviour.png" alt=""></p>
+
+<p>Here you can change the behaviour of the metronome!</p>
+
+<h2 id="tempo-tap">Tempo tap</h2>
+<p>You can tap your tempo by going to the midi-controls and click the BPM number. When this is selected use the <strong>T</strong> to tap your desired tempo.</p>
+
+<p><img src="/assets/images/protools/taptempo.png" alt=""></p>
+
+<hr>
+
+<p><em>This is the end of this post, click <a href="0003-basic-recording">here</a> for the next one and <a href="0001-newproject-creating-tracks">here</a> for the previous post!</em></p>
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+          <!--  
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">Subscribe to FROMJASP // The Craft Behind Music Production</h3>
+                    <p>Get the latest posts delivered right to your inbox</p>
+                    
+
+                </section>
+             -->
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/assets/images/jasper.png" alt="jasper">
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/author/jasper">Jasper Hartsuijker</a></h4>
+                                
+                                    <p>My name is Jasper and I'm the founder of this blog. I work as audio engineer / producer at IAM STUDIOS (Amsterdam) and teach music production at the University of Arts in Utrecht. I also love to write code and make educational content.</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/author/jasper">Read More</a>
+                        </div>
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+                        The only thing you need to change is "test-apkdzgmqhj" - which
+                        should be replaced with your own Disqus site-id. -->
+                  <!--      
+                            <section class="post-full-comments"> -->
+
+
+
+<!--
+                        <div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+
+    var disqus_config = function () {
+        this.page.url = 'http://localhost:4000/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'FROMJASP // The Craft Behind Music Production'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+
+        s.src = 'https://fromjasp.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+</section>
+
+     -->
+
+        </article>
+
+        
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="http://localhost:4000/">
+            
+                <img src="assets/images/favicon.png" alt="FROMJASP // The Craft Behind Music Production icon">
+            
+            <span>FROMJASP // The Craft Behind Music Production</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">—</span>
+    <div class="floating-header-title">2. Metronome, BPM, and Tempo Changes</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"></path>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=2.+Metronome%2C+BPM%2C+and+Tempo+Changes&amp;url=https://fromjasp.com/protools/0002-creating-a-metronome" onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"></path></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://fromjasp.com/protools/0002-creating-a-metronome" onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"></path></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="http://localhost:4000/">FROMJASP // The Craft Behind Music Production</a> © 2019</section>
+                <!--<section class="poweredby">We proudly use <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> &hearts;
+                  </section> -->
+                <nav class="site-footer-nav">
+                    <a href="/">Home</a>
+                    <a href="https://facebook.com/fromjasp" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/fromjasp" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://youtube.com/fromjasp" target="_blank" rel="noopener">Youtube</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                    <img class="subscribe-overlay-logo" src="/assets/images/favicon.png" alt="FROMJASP // The Craft Behind Music Production">
+                
+                <h1 class="subscribe-overlay-title">Subscribe to FROMJASP </h1>
+                <p class="subscribe-overlay-description">And get a fresh mail in your inbox whenever I have written a new article!</p>
+                
+
+            </div>
+        </div>
+    
+
+
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+    <script type="text/javascript">
+        var userFeed = new Instafeed({
+            get: 'user',
+            userId: '320043554',
+            accessToken: '320043554.1677ed0.65ee0410328448b68904e22b50ac8d6b'
+        });
+        userFeed.run();
+    </script>
+
+
+    <!-- Particles -->
+    <script type="text/javascript">
+    particlesJS("particles-js",particles.json);
+    </script>
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-125557543-1', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+    <!-- Instafeed -->
+    <script type="text/javascript" src="/assets/js/instafeed.js"></script>
+
+</body>
+</html>
