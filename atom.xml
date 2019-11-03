@@ -4,7 +4,7 @@
     <title> - Articles</title>
     <description>the craft behind music production.</description>
     <link>
-    http://localhost:4000</link>
+    </link>
     
       
       <item>
@@ -17,8 +17,8 @@ bit too light or dark. Therefore I decided to create my own theme which is based
         
         <pubDate>Wed, 07 Nov 2018 00:00:00 +0100</pubDate>
         <link>
-        http://localhost:4000/yaspr-ableton-live10-template</link>
-        <guid isPermaLink="true">http://localhost:4000/yaspr-ableton-live10-template</guid>
+        /yaspr-ableton-live10-template</link>
+        <guid isPermaLink="true">/yaspr-ableton-live10-template</guid>
       </item>
       
     
@@ -32,8 +32,8 @@ bit too light or dark. Therefore I decided to create my own theme which is based
         
         <pubDate>Thu, 30 Aug 2018 19:47:00 +0000</pubDate>
         <link>
-        http://localhost:4000/the-history-of-live-looping</link>
-        <guid isPermaLink="true">http://localhost:4000/the-history-of-live-looping</guid>
+        /the-history-of-live-looping</link>
+        <guid isPermaLink="true">/the-history-of-live-looping</guid>
       </item>
       
     
@@ -47,8 +47,8 @@ bit too light or dark. Therefore I decided to create my own theme which is based
         
         <pubDate>Tue, 28 Aug 2018 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/do-i-really-need-an-external-preamp</link>
-        <guid isPermaLink="true">http://localhost:4000/do-i-really-need-an-external-preamp</guid>
+        /do-i-really-need-an-external-preamp</link>
+        <guid isPermaLink="true">/do-i-really-need-an-external-preamp</guid>
       </item>
       
     
@@ -62,8 +62,8 @@ bit too light or dark. Therefore I decided to create my own theme which is based
         
         <pubDate>Mon, 27 Aug 2018 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/different-types-of-compression-explained</link>
-        <guid isPermaLink="true">http://localhost:4000/different-types-of-compression-explained</guid>
+        /different-types-of-compression-explained</link>
+        <guid isPermaLink="true">/different-types-of-compression-explained</guid>
       </item>
       
     
